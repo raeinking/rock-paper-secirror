@@ -12,14 +12,21 @@
 </head>
 <body>
     <div class="imgs">
-        <div class="hand rock"><img src="./icons8-hand-rock-80.png" alt="" srcset=""></div>
-        <div class="hand paper"><img src="./icons8-hand-80.png" alt="" srcset=""></div>
-        <div class="hand sesier"><img src="./icons8-two-fingers-80.png" alt="" srcset=""></div>
+        <div  id="rock" class="hand rocks"><img class="rock" src="./rock.png" alt="" srcset=""></div>
+        <div  id="paper" class="hand papers"><img class="paper" src="./hand.png" alt="" srcset=""></div>
+        <div  id="sicerr" class="hand sesiers"><img class="siccer" src="./siccer.png" alt="" srcset=""></div>
     </div>
     <div class="scors">
-        <div class="pscore">You <span id="you"></span>0</div>
+        <div class="pscore">You <span id="youScore">0</span></div>
         <div class="pscore">Score</div>
-        <div class="pscore">Computer <span id="computer">0</span></div>
+        <div class="pscore">Computer <span id="computerScore">0</span></div>
     </div>
+
+    <div class="fight">
+        <span id="youfight"></span>
+        <span id="computerfight"></span>
+    </div>
+
+    <script src="./app.js" defer></script>
 </body>
 </html>
